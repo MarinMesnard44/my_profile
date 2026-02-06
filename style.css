@@ -1,0 +1,77 @@
+body{
+background: rgb(220,220,220);
+color: rgb(60,60,60);
+font-family: Helvetica;
+font-size: 16px;
+}
+h1,h2,h3 {
+  font-family: Courier;
+}
+h1 {
+  color:#5B23FF;
+  font-size: 30px;
+}
+h2 {
+  color: #982598;
+  font-size: 22px;
+  font-weight: lighter;
+}
+a {
+  text-decoration: none;
+  color: red;
+  font-weight: bold;
+}
+a:hover {
+	color: green;
+}
+
+
+.container {
+  width: 1250px;
+  margin: 39px;
+}
+
+
+.card-white {
+  background-color: white;
+  padding: 39px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.img-circle{
+  border-radius: 50%;
+}
+
+.btn-blue {
+  background-color: #1A2CA3;
+  color: white;
+  padding: 15px 20px;
+}
+
+.btn-blue:hover {
+  background-color: red;
+  color: black;
+}
+
+
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+.list-inline i {
+  font-size : 50px;
+}
+#introduction p {
+   margin-bottom: 40px;
+   display: inline-block;
+}
+#introduction a {
+  margin-top: 20px;
+  display: inline-block;
+}
+
+
+
